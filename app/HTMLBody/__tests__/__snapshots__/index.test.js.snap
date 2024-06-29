@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HTMLBody Component matches child snapshot 1`] = `
+<html
+  lang="en"
+>
+  <head>
+    <title>
+      HTMLBody Test
+    </title>
+  </head>
+  <body>
+    <h1>
+      Body Contents
+    </h1>
+  </body>
+</html>
+`;
+
+exports[`HTMLBody Component matches no-child snapshot 1`] = `
+<html
+  lang="en"
+>
+  <head>
+    <title>
+      HTMLBody Test
+    </title>
+  </head>
+  <body />
+</html>
+`;

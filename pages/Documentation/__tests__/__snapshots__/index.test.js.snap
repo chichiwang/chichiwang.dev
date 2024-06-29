@@ -1,0 +1,5581 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Documentation Page Component matches snapshot 1`] = `
+<div
+  className="contentBlock"
+>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="wrapper"
+      >
+        <h1
+          className="tag"
+        >
+          Developer Documentation
+        </h1>
+      </div>
+    </div>
+    <article>
+      <p>
+        Documentation is also provided in the 
+        <a
+          href="https://github.com/chichiwang/tamsui"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Github repository
+        </a>
+         in the README file 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/docs/README.md"
+          rel="noreferrer"
+          target="_blank"
+        >
+          /docs/README.md
+        </a>
+        .
+      </p>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="wrapper"
+      >
+        <h2
+          className="tag"
+        >
+          Contents
+        </h2>
+      </div>
+    </div>
+    <article>
+      <ul
+        className="list content"
+      >
+        <li>
+          <a
+            href="/#Starting-a-Project"
+            onClick={[Function]}
+          >
+            Starting a Project
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#NPM-Scripts"
+            onClick={[Function]}
+          >
+            NPM Scripts
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Developing-Locally"
+            onClick={[Function]}
+          >
+            Developing Locally
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Building-for-Production"
+            onClick={[Function]}
+          >
+            Building for Production
+          </a>
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h2
+          className="tag"
+        >
+          Starting a Project
+        </h2>
+        <a
+          aria-labelledby="Starting-a-Project"
+          className="link"
+          href="#Starting-a-Project"
+          id="Starting-a-Project"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <div
+        className="checklistItem"
+      >
+        <label>
+          <input
+            checked={false}
+            className="checkboxInput"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="checkboxContainer"
+          >
+            <div
+              className="checkbox"
+            >
+              <div
+                className="top"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+              <div
+                className="bottom"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="labelContent"
+          >
+            Clone the 
+            <a
+              href="https://github.com/chichiwang/tamsui"
+              rel="noreferrer"
+              target="_blank"
+            >
+              repository
+            </a>
+            .
+          </span>
+        </label>
+      </div>
+      <div
+        className="checklistItem"
+      >
+        <label>
+          <input
+            checked={false}
+            className="checkboxInput"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="checkboxContainer"
+          >
+            <div
+              className="checkbox"
+            >
+              <div
+                className="top"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+              <div
+                className="bottom"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="labelContent"
+          >
+            Rename the project directory.
+          </span>
+        </label>
+      </div>
+      <div
+        className="checklistItem"
+      >
+        <label>
+          <input
+            checked={false}
+            className="checkboxInput"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="checkboxContainer"
+          >
+            <div
+              className="checkbox"
+            >
+              <div
+                className="top"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+              <div
+                className="bottom"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="labelContent"
+          >
+            Update the 
+            <span
+              className="highlight"
+            >
+              package.json
+            </span>
+             file.
+          </span>
+        </label>
+      </div>
+      <div
+        className="checklistItem indent"
+      >
+        <label>
+          <input
+            checked={false}
+            className="checkboxInput"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="checkboxContainer"
+          >
+            <div
+              className="checkbox"
+            >
+              <div
+                className="top"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+              <div
+                className="bottom"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="labelContent"
+          >
+            Update the 
+            <span
+              className="highlight"
+            >
+              name
+            </span>
+             field.
+          </span>
+        </label>
+      </div>
+      <div
+        className="checklistItem indent"
+      >
+        <label>
+          <input
+            checked={false}
+            className="checkboxInput"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="checkboxContainer"
+          >
+            <div
+              className="checkbox"
+            >
+              <div
+                className="top"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+              <div
+                className="bottom"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="labelContent"
+          >
+            Update the 
+            <span
+              className="highlight"
+            >
+              repository/url
+            </span>
+             field.
+          </span>
+        </label>
+      </div>
+      <div
+        className="checklistItem indent"
+      >
+        <label>
+          <input
+            checked={false}
+            className="checkboxInput"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="checkboxContainer"
+          >
+            <div
+              className="checkbox"
+            >
+              <div
+                className="top"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+              <div
+                className="bottom"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="labelContent"
+          >
+            Update the 
+            <span
+              className="highlight"
+            >
+              bugs/url
+            </span>
+             field.
+          </span>
+        </label>
+      </div>
+      <div
+        className="checklistItem indent"
+      >
+        <label>
+          <input
+            checked={false}
+            className="checkboxInput"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="checkboxContainer"
+          >
+            <div
+              className="checkbox"
+            >
+              <div
+                className="top"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+              <div
+                className="bottom"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="labelContent"
+          >
+            Update the 
+            <span
+              className="highlight"
+            >
+              homepage
+            </span>
+             field.
+          </span>
+        </label>
+      </div>
+      <div
+        className="checklistItem"
+      >
+        <label>
+          <input
+            checked={false}
+            className="checkboxInput"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="checkboxContainer"
+          >
+            <div
+              className="checkbox"
+            >
+              <div
+                className="top"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+              <div
+                className="bottom"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="labelContent"
+          >
+            <a
+              href="https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Reset the git remote
+            </a>
+             to your new project repository.
+          </span>
+        </label>
+      </div>
+      <div
+        className="checklistItem"
+      >
+        <label>
+          <input
+            checked={false}
+            className="checkboxInput"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="checkboxContainer"
+          >
+            <div
+              className="checkbox"
+            >
+              <div
+                className="top"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+              <div
+                className="bottom"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="labelContent"
+          >
+            If using 
+            <a
+              href="https://github.com/nvm-sh/nvm"
+              rel="noreferrer"
+              target="_blank"
+            >
+              nvm
+            </a>
+            , run 
+            <span
+              className="highlight"
+            >
+              nvm use
+            </span>
+            .
+          </span>
+        </label>
+      </div>
+      <div
+        className="checklistItem indent"
+      >
+        <label>
+          <input
+            checked={false}
+            className="checkboxInput"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="checkboxContainer"
+          >
+            <div
+              className="checkbox"
+            >
+              <div
+                className="top"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+              <div
+                className="bottom"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="labelContent"
+          >
+            Otherwise, note the contents of 
+            <span
+              className="highlight"
+            >
+              .nvmrc
+            </span>
+             to see the version of 
+            <a
+              href="https://nodejs.org/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Node.js
+            </a>
+             this project is built on.
+          </span>
+        </label>
+      </div>
+      <div
+        className="checklistItem"
+      >
+        <label>
+          <input
+            checked={false}
+            className="checkboxInput"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="checkboxContainer"
+          >
+            <div
+              className="checkbox"
+            >
+              <div
+                className="top"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+              <div
+                className="bottom"
+              >
+                <div
+                  className="back"
+                />
+                <div
+                  className="front"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="labelContent"
+          >
+            Run 
+            <span
+              className="highlight"
+            >
+              npm install
+            </span>
+            .
+          </span>
+        </label>
+      </div>
+    </article>
+  </section>
+  <section
+    className="pageBreak headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h2
+          className="tag"
+        >
+          NPM Scripts
+        </h2>
+        <a
+          aria-labelledby="NPM-Scripts"
+          className="link"
+          href="#NPM-Scripts"
+          id="NPM-Scripts"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <table
+        className="scriptsList"
+      >
+        <thead>
+          <tr>
+            <th>
+              Script
+            </th>
+            <th>
+              Description
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  analyze
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Run 
+                <a
+                  href="https://www.npmjs.com/package/webpack-bundle-analyzer"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  webpack-bundle-analyzer
+                </a>
+                 against a 
+                <span
+                  className="highlight"
+                >
+                  stats.json
+                </span>
+                 in the root directory
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  analyze:dev
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Build dev assets and run 
+                <a
+                  href="https://www.npmjs.com/package/webpack-bundle-analyzer"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  webpack-bundle-analyzer
+                </a>
+                 against the generated asssets
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  analyze:prod
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Build prod assets and run 
+                <a
+                  href="https://www.npmjs.com/package/webpack-bundle-analyzer"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  webpack-bundle-analyzer
+                </a>
+                 against the generated asssets
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  build:dev
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Build dev assets and generate 
+                <span
+                  className="highlight"
+                >
+                  stats.json
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  build:dist
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Create a 
+                <span
+                  className="highlight"
+                >
+                  dist/
+                </span>
+                 directory in the project root
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  build:prod
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Build prod assets and generate 
+                <span
+                  className="highlight"
+                >
+                  stats.json
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  build:static
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Copy the 
+                <span
+                  className="highlight"
+                >
+                  static/
+                </span>
+                 directory ino the project root into 
+                <span
+                  className="highlight"
+                >
+                  dist/
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  clean
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Remove 
+                <span
+                  className="highlight"
+                >
+                  stats.json
+                </span>
+                 and 
+                <span
+                  className="highlight"
+                >
+                  dist/
+                </span>
+                 directory
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  dev
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Build dev assets and run the webserver, running server logs through 
+                <a
+                  href="https://github.com/pinojs/pino-pretty"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  pino-pretty
+                </a>
+                 for development purposes
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  lint
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Run 
+                <a
+                  href="https://eslint.org/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  ESLint
+                </a>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  prod
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Build prod assets and run the webserver, running server logs through 
+                <a
+                  href="https://github.com/pinojs/pino-pretty"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  pino-pretty
+                </a>
+                 for development purposes
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  run
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Run 
+                <span
+                  className="highlight"
+                >
+                  dist/index.js
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  start
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Build prod assets and run the webserver, 
+                  intended to be used in production environments
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  test
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Build prod assets and run the webserver, 
+                  intended to be used in production environments
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  test:snapshot
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Update snapshots with 
+                <a
+                  href="https://github.com/pinojs/pino-pretty"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Jest
+                </a>
+                , can be used in lieu of 
+                <span
+                  className="highlight"
+                >
+                  npm run test -- -u
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                className="script"
+              >
+                <span
+                  className="highlight"
+                >
+                  watch
+                </span>
+                <div
+                  className="copyContainer copyButton"
+                >
+                  <div
+                    className="copyWrapper"
+                  >
+                    <div
+                      className="message"
+                    >
+                      <div
+                        className="successMessage"
+                      >
+                        <span>
+                          Copied!
+                        </span>
+                      </div>
+                      <div
+                        className="errorMessage"
+                      >
+                        <span>
+                          Failed!
+                        </span>
+                      </div>
+                    </div>
+                    <button
+                      aria-label="Copy text"
+                      className="copyButton"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <svg
+                        className="copyIcon"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                        >
+                          <path
+                            d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                          />
+                          <path
+                            d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p>
+                Run the watch server, will restart the server on every file change
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h2
+          className="tag"
+        >
+          Developing Locally
+        </h2>
+        <a
+          aria-labelledby="Developing-Locally"
+          className="link"
+          href="#Developing-Locally"
+          id="Developing-Locally"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <ul
+        className="list content"
+      >
+        <li>
+          <a
+            href="/#Project-Configurations"
+            onClick={[Function]}
+          >
+            Project Configurations
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Running-the-Application"
+            onClick={[Function]}
+          >
+            Running the Application
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Project-Directories"
+            onClick={[Function]}
+          >
+            Project Directories
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Adding-an-Application-Directory"
+            onClick={[Function]}
+          >
+            Adding an Application Directory
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Static-Files"
+            onClick={[Function]}
+          >
+            Static Files
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Error-Boundary"
+            onClick={[Function]}
+          >
+            Error Boundary
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Testing"
+            onClick={[Function]}
+          >
+            Testing
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Application-Layouts"
+            onClick={[Function]}
+          >
+            Application Layouts
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Route-Specific-Data"
+            onClick={[Function]}
+          >
+            Route-Specific Data
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Pull-Request-Template"
+            onClick={[Function]}
+          >
+            Pull Request Template
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#Github-Workflow"
+            onClick={[Function]}
+          >
+            Github Workflow
+          </a>
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h3
+          className="tag"
+        >
+          Project Configurations
+        </h3>
+        <a
+          aria-labelledby="Project-Configurations"
+          className="link"
+          href="#Project-Configurations"
+          id="Project-Configurations"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <p>
+        <b>
+          Tamsui
+        </b>
+         uses environment-aware configurations via 
+        <a
+          href="https://webpack.js.org/plugins/define-plugin/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Webpack's DefinePlugin
+        </a>
+        . This behavior is instrumented in 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/webpack/define.js"
+          rel="noreferrer"
+          target="_blank"
+        >
+          webpack/define.js
+        </a>
+        .
+      </p>
+      <p>
+        A config file 
+        <span
+          className="highlight"
+        >
+          project-configs.js
+        </span>
+         exists in the project root directory. These variables are replaced with their corresponding
+         values in the project code at build time.
+      </p>
+      <p>
+        Currently the following variables are used:
+      </p>
+      <ul
+        className="list"
+      >
+        <li>
+          <span
+            className="highlight"
+          >
+            PORT
+          </span>
+           (number): The port the express server will run on.
+        </li>
+        <li>
+          <span
+            className="highlight"
+          >
+            SERVE_STATIC
+          </span>
+           (boolean): Whether the Express server should serve static assets located in 
+          <span
+            className="highlight"
+          >
+            dist/static/
+          </span>
+          , 
+          <span
+            className="highlight"
+          >
+            dist/styles/
+          </span>
+          , and 
+          <span
+            className="highlight"
+          >
+            dist/scripts/
+          </span>
+          .
+        </li>
+        <li>
+          <span
+            className="highlight"
+          >
+            PROJECT_URL
+          </span>
+           (string): The intended deployment URL of the application in each environment, used to set 
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel#canonical"
+            rel="noreferrer"
+            target="_blank"
+          >
+            canonical links
+          </a>
+           and 
+          <a
+            href="https://ogp.me/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Open Graph
+          </a>
+           meta tags.
+        </li>
+      </ul>
+      <p>
+        <b>
+          Adding configuration variables
+        </b>
+      </p>
+      <p>
+        To add a configuration variable, add the variable as a property to 
+        <span
+          className="highlight"
+        >
+          project-configs.js
+        </span>
+        , in both defined environments:
+      </p>
+      <div
+        className="codeBlock"
+      >
+        <div
+          className="copyContainer copyButton"
+        >
+          <div
+            className="copyWrapper lightMode"
+          >
+            <div
+              className="message"
+            >
+              <div
+                className="successMessage"
+              >
+                <span>
+                  Copied!
+                </span>
+              </div>
+              <div
+                className="errorMessage"
+              >
+                <span>
+                  Failed!
+                </span>
+              </div>
+            </div>
+            <button
+              aria-label="Copy text"
+              className="copyButton"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="copyIcon"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                >
+                  <path
+                    d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                  />
+                  <path
+                    d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p>
+          <span
+            className="grey"
+          >
+            // project-configs.js
+          </span>
+          <br />
+          <br />
+          module.
+          <span
+            className="darkBlue"
+          >
+            exports =
+          </span>
+           {
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            development
+          </span>
+          : {
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            NEW_CONFIG
+          </span>
+          : 
+          <span
+            className="darkBlue"
+          >
+            false
+          </span>
+          ,
+          <br />
+            
+          },
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            production
+          </span>
+          : {
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            NEW_CONFIG
+          </span>
+          : 
+          <span
+            className="darkBlue"
+          >
+            false
+          </span>
+          ,
+          <br />
+            
+          },
+          <br />
+          };
+        </p>
+      </div>
+      <p>
+        Then add a 
+        <a
+          href="https://www.typescriptlang.org/docs/handbook/2/type-declarations.html"
+          rel="noreferrer"
+          target="_blank"
+        >
+          type declaration
+        </a>
+         for the new configuration variable to 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/global.d.ts"
+          rel="noreferrer"
+          target="_blank"
+        >
+          app/global.d.ts
+        </a>
+        :
+      </p>
+      <div
+        className="codeBlock"
+      >
+        <div
+          className="copyContainer copyButton"
+        >
+          <div
+            className="copyWrapper lightMode"
+          >
+            <div
+              className="message"
+            >
+              <div
+                className="successMessage"
+              >
+                <span>
+                  Copied!
+                </span>
+              </div>
+              <div
+                className="errorMessage"
+              >
+                <span>
+                  Failed!
+                </span>
+              </div>
+            </div>
+            <button
+              aria-label="Copy text"
+              className="copyButton"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="copyIcon"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                >
+                  <path
+                    d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                  />
+                  <path
+                    d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p>
+          <span
+            className="grey"
+          >
+            // app/globals.d.ts
+          </span>
+          <br />
+          <br />
+          <span
+            className="red"
+          >
+            declare const
+          </span>
+           NEW_CONFIG: 
+          <span
+            className="orange"
+          >
+            boolean
+          </span>
+          ;
+        </p>
+      </div>
+      <p>
+        To avoid running afoul of ESLint's 
+        <a
+          href="https://eslint.org/docs/latest/rules/no-undef"
+          rel="noreferrer"
+          target="_blank"
+        >
+          no-undef
+        </a>
+         rule when using these project config variables, a 
+        <span
+          className="highlight"
+        >
+          /* global */
+        </span>
+         comment should be used in any file that references a project config variable:
+      </p>
+      <div
+        className="codeBlock"
+      >
+        <div
+          className="copyContainer copyButton"
+        >
+          <div
+            className="copyWrapper lightMode"
+          >
+            <div
+              className="message"
+            >
+              <div
+                className="successMessage"
+              >
+                <span>
+                  Copied!
+                </span>
+              </div>
+              <div
+                className="errorMessage"
+              >
+                <span>
+                  Failed!
+                </span>
+              </div>
+            </div>
+            <button
+              aria-label="Copy text"
+              className="copyButton"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="copyIcon"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                >
+                  <path
+                    d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                  />
+                  <path
+                    d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p>
+          <span
+            className="grey"
+          >
+            // example.js
+          </span>
+          <br />
+          <span
+            className="grey"
+          >
+            /* global NEW_CONFIG */
+          </span>
+          <br />
+          <br />
+          <span
+            className="red"
+          >
+            if
+          </span>
+           (
+          <span
+            className="darkBlue"
+          >
+            NEW_CONFIG
+          </span>
+          ) {
+          <br />
+            
+          <span
+            className="grey"
+          >
+            // ...
+          </span>
+          <br />
+          }
+        </p>
+      </div>
+      <p>
+        Now 
+        <span
+          className="highlight"
+        >
+          NEW_CONFIG
+        </span>
+         can be used in the project code. When building for development, instances of 
+        <span
+          className="highlight"
+        >
+          NEW_CONFIG
+        </span>
+         will be replaced with 
+        <span
+          className="highlight"
+        >
+          false
+        </span>
+        , when building for production instances will be replaced with 
+        <span
+          className="highlight"
+        >
+          true
+        </span>
+        .
+      </p>
+      <p>
+        <b>
+          Note
+        </b>
+        : String values must be double-wrapped in quotes, since all config values are
+         passed into the 
+        <a
+          href="https://webpack.js.org/plugins/define-plugin/#usage"
+          rel="noreferrer"
+          target="_blank"
+        >
+          DefinePlugin
+        </a>
+        . This means that string values are treated as code fragments. Calling 
+        <span
+          className="highlight"
+        >
+          JSON.stringify()
+        </span>
+         on string values will also preserve them as strings:
+      </p>
+      <div
+        className="codeBlock"
+      >
+        <div
+          className="copyContainer copyButton"
+        >
+          <div
+            className="copyWrapper lightMode"
+          >
+            <div
+              className="message"
+            >
+              <div
+                className="successMessage"
+              >
+                <span>
+                  Copied!
+                </span>
+              </div>
+              <div
+                className="errorMessage"
+              >
+                <span>
+                  Failed!
+                </span>
+              </div>
+            </div>
+            <button
+              aria-label="Copy text"
+              className="copyButton"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="copyIcon"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                >
+                  <path
+                    d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                  />
+                  <path
+                    d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p>
+          <span
+            className="grey"
+          >
+            // project-config.js
+          </span>
+          <br />
+          <br />
+          module.
+          <span
+            className="darkBlue"
+          >
+            exports =
+          </span>
+           {
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            development
+          </span>
+          : {
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            DOUBLE_WRAPPED_STRING
+          </span>
+          : 
+          <span
+            className="blue"
+          >
+            "'string value'"
+          </span>
+          ,
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            JSON_WRAPPED_STRING
+          </span>
+          : 
+          <span
+            className="blue"
+          >
+            JSON
+          </span>
+          .
+          <span
+            className="purple"
+          >
+            stringify
+          </span>
+          (
+          <span
+            className="blue"
+          >
+            'remains a string'
+          </span>
+          ),
+          <br />
+            
+          },
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            production
+          </span>
+          : {
+          <br />
+              
+          <span
+            className="grey"
+          >
+            // ...
+          </span>
+          <br />
+            
+          },
+          <br />
+          };
+        </p>
+      </div>
+      <p>
+        <b>
+          Testing with configuration variables
+        </b>
+      </p>
+      <p>
+        New configuration variables can either be mocked into tests by modifying the 
+        <span
+          className="highlight"
+        >
+          global
+        </span>
+         object, or adding the variable to the 
+        <a
+          href="https://jestjs.io/docs/configuration#globals-object"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Jest globals object
+        </a>
+        . The globals object can be added to 
+        <span
+          className="highlight"
+        >
+          sharedConfigs
+        </span>
+        , 
+        <span
+          className="highlight"
+        >
+          appConfig
+        </span>
+        , 
+        <span
+          className="highlight"
+        >
+          clientConfig
+        </span>
+        , or 
+        <span
+          className="highlight"
+        >
+          serverConfig
+        </span>
+         (as appropriate) in 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/jest.config.js"
+          rel="noreferrer"
+          target="_blank"
+        >
+          jest.config.js
+        </a>
+        .
+      </p>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h3
+          className="tag"
+        >
+          Running the Application
+        </h3>
+        <a
+          aria-labelledby="Running-the-Application"
+          className="link"
+          href="#Running-the-Application"
+          id="Running-the-Application"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <p>
+        Run 
+        <span
+          className="highlight"
+        >
+          npm run watch
+        </span>
+         to run the development watch server.
+      </p>
+      <p>
+        <span
+          className="highlight"
+        >
+          npm run dev
+        </span>
+         will build and run the application in development mode. 
+        <span
+          className="highlight"
+        >
+          npm run prod
+        </span>
+         will build and run the application in production mode. All of the above modes
+         will run the server output through 
+        <a
+          href="https://github.com/pinojs/pino-pretty"
+          rel="noreferrer"
+          target="_blank"
+        >
+          pino-pretty
+        </a>
+        .
+      </p>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h3
+          className="tag"
+        >
+          Project Directories
+        </h3>
+        <a
+          aria-labelledby="Project-Directories"
+          className="link"
+          href="#Project-Directories"
+          id="Project-Directories"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <p>
+        The 
+        <span
+          className="highlight"
+        >
+          client/
+        </span>
+         directory is intended to house files specific to the client-side bundle.
+         At the moment it only contains the entrypoint file, which 
+        <a
+          href="https://react.dev/reference/react-dom/client/hydrateRoot"
+          rel="noreferrer"
+          target="_blank"
+        >
+          mounts and hydrates the root application
+        </a>
+        .
+      </p>
+      <p>
+        The 
+        <span
+          className="highlight"
+        >
+          app/
+        </span>
+         directory houses application-level concerns: the root application contains the
+         the html root, head, and body. The routes are housed in 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/dataRoutes"
+          rel="noreferrer"
+          target="_blank"
+        >
+          app/dataRoutes
+        </a>
+         as a 
+        <a
+          href="https://reactrouter.com/en/main/route/route"
+          rel="noreferrer"
+          target="_blank"
+        >
+          data routes object
+        </a>
+        . The reason the routes are not declared in 
+        <a
+          href="https://react.dev/learn/writing-markup-with-jsx"
+          rel="noreferrer"
+          target="_blank"
+        >
+          JSX
+        </a>
+         is for compatibility with rendering 
+        <a
+          href="https://react.dev/reference/react-dom/server/renderToPipeableStream"
+          rel="noreferrer"
+          target="_blank"
+        >
+          React to a Node.js stream
+        </a>
+        .
+      </p>
+      <p>
+        The 
+        <span
+          className="highlight"
+        >
+          pages/
+        </span>
+         directory houses the page-level react components. These are plugged into the
+         application via the 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/dataRoutes"
+          rel="noreferrer"
+          target="_blank"
+        >
+          dataRoutes object
+        </a>
+        .
+      </p>
+      <p>
+        The 
+        <span
+          className="highlight"
+        >
+          server/
+        </span>
+         directory houses the server-side rendering logic and defines the static asset
+         directories. 
+        <a
+          href="https://getpino.io/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Pino
+        </a>
+         is implemented as the logger.
+      </p>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h3
+          className="tag"
+        >
+          Adding an Application Directory
+        </h3>
+        <a
+          aria-labelledby="Adding-an-Application-Directory"
+          className="link"
+          href="#Adding-an-Application-Directory"
+          id="Adding-an-Application-Directory"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <p>
+        To add additional application directories, or to remove existing ones:
+      </p>
+      <ul
+        className="list"
+      >
+        <li>
+          Path aliases need to be updated
+        </li>
+        <li>
+          Jest projects need to be updated
+        </li>
+      </ul>
+      <p>
+        The 
+        <span
+          className="highlight"
+        >
+          app/
+        </span>
+         and 
+        <span
+          className="highlight"
+        >
+          pages/
+        </span>
+         directories are set up with path aliases so that a module can be imported with
+         absolute pathing rather than relative pathing:
+      </p>
+      <div
+        className="codeBlock"
+      >
+        <div
+          className="copyContainer copyButton"
+        >
+          <div
+            className="copyWrapper lightMode"
+          >
+            <div
+              className="message"
+            >
+              <div
+                className="successMessage"
+              >
+                <span>
+                  Copied!
+                </span>
+              </div>
+              <div
+                className="errorMessage"
+              >
+                <span>
+                  Failed!
+                </span>
+              </div>
+            </div>
+            <button
+              aria-label="Copy text"
+              className="copyButton"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="copyIcon"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                >
+                  <path
+                    d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                  />
+                  <path
+                    d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p>
+          <span
+            className="red"
+          >
+            import
+          </span>
+           Module 
+          <span
+            className="red"
+          >
+            from
+          </span>
+           
+          <span
+            className="blue"
+          >
+            'app/module'
+          </span>
+          ;
+          <br />
+          <span
+            className="red"
+          >
+            import
+          </span>
+           PageModule 
+          <span
+            className="red"
+          >
+            from
+          </span>
+           
+          <span
+            className="blue"
+          >
+            'page/PageModule'
+          </span>
+          ;
+        </p>
+      </div>
+      <p>
+        If any directory is removed, or if a new directory needs an alias:
+      </p>
+      <ul
+        className="list"
+      >
+        <li>
+          An 
+          <span
+            className="highlight"
+          >
+            alias
+          </span>
+           should be updated in the 
+          <a
+            href="https://github.com/chichiwang/tamsui/blob/main/webpack/resolve.js"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Webpack configs
+          </a>
+          .
+        </li>
+        <li>
+          The 
+          <a
+            href="https://github.com/johvin/eslint-import-resolver-alias?tab=readme-ov-file#usage"
+            rel="noreferrer"
+            target="_blank"
+          >
+            alias mapping
+          </a>
+           should be added to the 
+          <a
+            href="https://github.com/chichiwang/tamsui/blob/main/.eslintrc.js"
+            rel="noreferrer"
+            target="_blank"
+          >
+            eslint configuration
+          </a>
+           to avoid linting errors when using the alias.
+        </li>
+        <li>
+          The alias should be updated in the 
+          <a
+            href="https://www.typescriptlang.org/tsconfig#paths"
+            rel="noreferrer"
+            target="_blank"
+          >
+            paths configuration
+          </a>
+           for TypeScript to avoid type errors.
+        </li>
+        <li>
+          The alias should be updated in the 
+          <a
+            href="https://jestjs.io/docs/configuration#modulenamemapper-objectstring-string--arraystring"
+            rel="noreferrer"
+            target="_blank"
+          >
+            moduleNameMapper configuration
+          </a>
+           in the 
+          <a
+            href="https://github.com/chichiwang/tamsui/blob/main/jest.config.js"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Jest configuration
+          </a>
+           to ensure module mocking will work in tests, and so there are no errors in using the alias.
+          <ul
+            className="list"
+          >
+            <li>
+              The directory should be updated in the 
+              <span
+                className="highlight"
+              >
+                appConfig.testMatch
+              </span>
+               array to ensure that the test runner knows which directories to cover.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h3
+          className="tag"
+        >
+          Static Files
+        </h3>
+        <a
+          aria-labelledby="Static-Files"
+          className="link"
+          href="#Static-Files"
+          id="Static-Files"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <p>
+        The directory 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/static"
+          rel="noreferrer"
+          target="_blank"
+        >
+          static/
+        </a>
+        , housed in the project root, is copied directly into the 
+        <span
+          className="highlight"
+        >
+          dist/static/
+        </span>
+         directory on project build. This directory is served statically by the
+         Express server in development builds. 
+        <span
+          className="highlight"
+        >
+          static/
+        </span>
+         is meant to house static files (images, JSON files, etc.) used by 
+        <b>
+          Tamsui
+        </b>
+        .
+      </p>
+      <p>
+        Similarly, JavaScript assets are built to 
+        <span
+          className="highlight"
+        >
+          dist/scripts/
+        </span>
+        , CSS files are built to 
+        <span
+          className="highlight"
+        >
+          dist/styles/
+        </span>
+        . For local development all of these directories are served by the Express
+         backend server (dictated by the 
+        <span
+          className="highlight"
+        >
+          dist/styles/
+        </span>
+         
+        <a
+          href="/#Project-Configurations"
+          onClick={[Function]}
+        >
+          project variable
+        </a>
+         in 
+        <span
+          className="highlight"
+        >
+          project-configs.js
+        </span>
+        ). For production builds the 
+        <span
+          className="highlight"
+        >
+          SERVE_STATIC
+        </span>
+         config is set to 
+        <span
+          className="highlight"
+        >
+          false
+        </span>
+         by default.
+      </p>
+      <p>
+        On deployment: the directories 
+        <span
+          className="highlight"
+        >
+          /dist/static/
+        </span>
+        , 
+        <span
+          className="highlight"
+        >
+          /dist/scripts/
+        </span>
+        , and 
+        <span
+          className="highlight"
+        >
+          /dist/styles/
+        </span>
+         can be deployed to a CDN.
+      </p>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h3
+          className="tag"
+        >
+          Error Boundary
+        </h3>
+        <a
+          aria-labelledby="Error-Boundary"
+          className="link"
+          href="#Error-Boundary"
+          id="Error-Boundary"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <p>
+        <b>
+          Tamsui
+        </b>
+         implements a basic 
+        <a
+          href="https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary"
+          rel="noreferrer"
+          target="_blank"
+        >
+          React Error Boundary
+        </a>
+         in 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/ErrorBoundary"
+          rel="noreferrer"
+          target="_blank"
+        >
+          app/ErrorBoundary
+        </a>
+        . This error boundary is configured as an 
+        <a
+          href="https://reactrouter.com/en/main/route/error-element"
+          rel="noreferrer"
+          target="_blank"
+        >
+          errorElement
+        </a>
+         in the 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/dataRoutes"
+          rel="noreferrer"
+          target="_blank"
+        >
+          dataRoutes
+        </a>
+         object. It is recommended all root routes are wrapped in this error boundary. A utility, 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/dataRoutes/withErrorBoundary.tsx"
+          rel="noreferrer"
+          target="_blank"
+        >
+          withErrorBoundary
+        </a>
+         is provided to more easily (and declaratively) extend routes with this 
+        <span
+          className="highlight"
+        >
+          errorElement
+        </span>
+         property:
+      </p>
+      <div
+        className="codeBlock"
+      >
+        <div
+          className="copyContainer copyButton"
+        >
+          <div
+            className="copyWrapper lightMode"
+          >
+            <div
+              className="message"
+            >
+              <div
+                className="successMessage"
+              >
+                <span>
+                  Copied!
+                </span>
+              </div>
+              <div
+                className="errorMessage"
+              >
+                <span>
+                  Failed!
+                </span>
+              </div>
+            </div>
+            <button
+              aria-label="Copy text"
+              className="copyButton"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="copyIcon"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                >
+                  <path
+                    d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                  />
+                  <path
+                    d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p>
+          <span
+            className="grey"
+          >
+            // app/dataRoutes/index.ts
+          </span>
+          <br />
+          <span
+            className="red"
+          >
+            import
+          </span>
+           
+          <span
+            className="orange"
+          >
+            PageComponent
+          </span>
+           
+          <span
+            className="red"
+          >
+            from
+          </span>
+           
+          <span
+            className="blue"
+          >
+            'pages/PageComponent'
+          </span>
+          ;
+          <br />
+          <br />
+          <span
+            className="red"
+          >
+            import
+          </span>
+           withErrorBoundary 
+          <span
+            className="red"
+          >
+            from
+          </span>
+           
+          <span
+            className="blue"
+          >
+            './withErrorBoundary'
+          </span>
+          ;
+          <br />
+          <br />
+          <span
+            className="red"
+          >
+            const
+          </span>
+           dataRoutes 
+          <span
+            className="blue"
+          >
+            =
+          </span>
+           [
+          <br />
+            
+          <span
+            className="purple"
+          >
+            withErrorBoundary
+          </span>
+          ({
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            path
+          </span>
+          : 
+          <span
+            className="blue"
+          >
+            '/path-to-page'
+          </span>
+          ,
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            Component
+          </span>
+          : 
+          <span
+            className="orange"
+          >
+            PageComponent
+          </span>
+          ,
+          <br />
+            }),
+          <br />
+          ];
+        </p>
+      </div>
+      <p>
+        On the server, if an error in rendering the application occurs it will
+         redirect the request to 
+        <span
+          className="highlight"
+        >
+          /error
+        </span>
+        , 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/server/appHandler.tsx"
+          rel="noreferrer"
+          target="_blank"
+        >
+          configured by default
+        </a>
+         to be the 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/pages/ErrorPage"
+          rel="noreferrer"
+          target="_blank"
+        >
+          application's error page
+        </a>
+        .
+      </p>
+      <p>
+        On the client, an error in a page will render the 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/pages/ErrorPage"
+          rel="noreferrer"
+          target="_blank"
+        >
+          ErrorPage component
+        </a>
+         as fallback.
+      </p>
+      <p>
+        <b>
+          To change the path to the error page
+        </b>
+        : change the value of the constant 
+        <span
+          className="highlight"
+        >
+          errorPagePath
+        </span>
+         in 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/server/appHandler.tsx"
+          rel="noreferrer"
+          target="_blank"
+        >
+          server/appHandler.tsx
+        </a>
+        . Make sure you define this route in the 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/dataRoutes/index.ts"
+          rel="noreferrer"
+          target="_blank"
+        >
+          app/dataRoutes/index.ts
+        </a>
+         file.
+      </p>
+      <p>
+        Alternatively, keep the error page path and just replace the 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/pages/ErrorPage"
+          rel="noreferrer"
+          target="_blank"
+        >
+          ErrorPage component
+        </a>
+        .
+      </p>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h3
+          className="tag"
+        >
+          Testing
+        </h3>
+        <a
+          aria-labelledby="Testing"
+          className="link"
+          href="#Testing"
+          id="Testing"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <p>
+        <b>
+          Tamsui
+        </b>
+         utilizes 
+        <a
+          href="https://jestjs.io/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Jest
+        </a>
+         as a test runner. Tests should be housed in a 
+        <span
+          className="highlight"
+        >
+          __tests__/
+        </span>
+         directory within their respective 
+        <a
+          href="#Project-Directories"
+        >
+          project directories
+        </a>
+        . Test files should have the file extension 
+        <span
+          className="highlight"
+        >
+          .test.js
+        </span>
+      </p>
+      <p>
+        The default 
+        <a
+          href="https://jestjs.io/docs/configuration#coveragethreshold-object"
+          rel="noreferrer"
+          target="_blank"
+        >
+          coverage threshold
+        </a>
+         is set too 100% across the board. To reduce or remove the coverage requirements, modify the 
+        <span
+          className="highlight"
+        >
+          coverageThreshold
+        </span>
+         field in the 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/jest.config.js"
+          rel="noreferrer"
+          target="_blank"
+        >
+          config
+        </a>
+        .
+      </p>
+      <p>
+        To run the test suite locally: 
+        <span
+          className="highlight"
+        >
+          npm test
+        </span>
+        . To update 
+        <a
+          href="https://jestjs.io/docs/snapshot-testing"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Jest snapshots
+        </a>
+         
+        <span
+          className="highlight"
+        >
+          npm run test:snapshot
+        </span>
+         can be used. Alternatively, 
+        <span
+          className="highlight"
+        >
+          npm run test -- -u
+        </span>
+         will also work.
+      </p>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h3
+          className="tag"
+        >
+          Application Layouts
+        </h3>
+        <a
+          aria-labelledby="Application-Layouts"
+          className="link"
+          href="#Application-Layouts"
+          id="Application-Layouts"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <p>
+        Layouts can be directly applied to routes in 
+        <a
+          href="https://reactrouter.com/en/main"
+          rel="noreferrer"
+          target="_blank"
+        >
+          React Router
+        </a>
+         using 
+        <a
+          href="https://reactrouter.com/en/main/start/concepts#layout-routes"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Layout Routes
+        </a>
+        .
+      </p>
+      <div
+        className="codeBlock"
+      >
+        <div
+          className="copyContainer copyButton"
+        >
+          <div
+            className="copyWrapper lightMode"
+          >
+            <div
+              className="message"
+            >
+              <div
+                className="successMessage"
+              >
+                <span>
+                  Copied!
+                </span>
+              </div>
+              <div
+                className="errorMessage"
+              >
+                <span>
+                  Failed!
+                </span>
+              </div>
+            </div>
+            <button
+              aria-label="Copy text"
+              className="copyButton"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="copyIcon"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                >
+                  <path
+                    d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                  />
+                  <path
+                    d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p>
+          <span
+            className="grey"
+          >
+            // dataRoutes.js
+          </span>
+          <br />
+          <span
+            className="red"
+          >
+            import
+          </span>
+           
+          <span
+            className="orange"
+          >
+            Layout
+          </span>
+           
+          <span
+            className="red"
+          >
+            from
+          </span>
+           
+          <span
+            className="blue"
+          >
+            'app/Layout'
+          </span>
+          ;
+          <br />
+          <br />
+          <span
+            className="red"
+          >
+            import
+          </span>
+           
+          <span
+            className="orange"
+          >
+            Home
+          </span>
+           
+          <span
+            className="red"
+          >
+            from
+          </span>
+           
+          <span
+            className="blue"
+          >
+            'pages/Home'
+          </span>
+          ;
+          <br />
+          <span
+            className="red"
+          >
+            import
+          </span>
+           
+          <span
+            className="orange"
+          >
+            AnotherPage
+          </span>
+           
+          <span
+            className="red"
+          >
+            from
+          </span>
+           
+          <span
+            className="blue"
+          >
+            'pages/AnotherPage'
+          </span>
+          ;
+          <br />
+          <br />
+          <span
+            className="red"
+          >
+            const
+          </span>
+           routes 
+          <span
+            className="blue"
+          >
+            =
+          </span>
+           [{
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            Component
+          </span>
+          : 
+          <span
+            className="orange"
+          >
+            Layout
+          </span>
+          ,
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            children
+          </span>
+          : [{
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            path
+          </span>
+          : 
+          <span
+            className="blue"
+          >
+            '/'
+          </span>
+          ,
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            Component
+          </span>
+          : 
+          <span
+            className="orange"
+          >
+            Home
+          </span>
+          ,
+          <br />
+            
+          }, {
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            path
+          </span>
+          : 
+          <span
+            className="blue"
+          >
+            '/another-page'
+          </span>
+          ,
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            Component
+          </span>
+          : 
+          <span
+            className="orange"
+          >
+            AnotherPage
+          </span>
+          ,
+          <br />
+            
+          }],
+          <br />
+          }];
+        </p>
+      </div>
+      <p>
+        In the boilerplate, a default Layout has been created in 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/Layout"
+          rel="noreferrer"
+          target="_blank"
+        >
+          app/Layout
+        </a>
+        .
+      </p>
+      <p>
+        One issue that has arisen from the usage of a layout route is that client-side navigation
+         will not reset the browser scroll upon page navigation: clicking a link to another page will
+         land the user on the new page, scrolled the same amount as on the previous page.
+      </p>
+      <p>
+        A solution has been implemented in this boilerplate in the form of a 
+        <a
+          href="https://react.dev/learn/reusing-logic-with-custom-hooks"
+          rel="noreferrer"
+          target="_blank"
+        >
+          custom react hook
+        </a>
+        : 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/hooks/README.md#useresetscroll"
+          rel="noreferrer"
+          target="_blank"
+        >
+          useResetScroll
+        </a>
+        . This hook needs to be invoked by any layouts in use, and 
+        <a
+          href="https://reactrouter.com/en/main/components/link"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Links
+        </a>
+         to pages that need the scroll reset need to pass a 
+        <a
+          href="https://reactrouter.com/en/main/components/link#state"
+          rel="noreferrer"
+          target="_blank"
+        >
+          state
+        </a>
+         object with a property 
+        <span
+          className="highlight"
+        >
+          resetScroll
+        </span>
+         set to 
+        <span
+          className="highlight"
+        >
+          true
+        </span>
+        . A reusable component 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/components/InternalLink"
+          rel="noreferrer"
+          target="_blank"
+        >
+          InternalLink
+        </a>
+         has been provided to automatically pass this state object property.
+      </p>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h3
+          className="tag"
+        >
+          Route-Specific Data
+        </h3>
+        <a
+          aria-labelledby="Route-Specific-Data"
+          className="link"
+          href="#Route-Specific-Data"
+          id="Route-Specific-Data"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <p>
+        <b>
+          Tamsui
+        </b>
+         uses a React Router 
+        <a
+          href="https://reactrouter.com/en/main/routers/router-provider"
+          rel="noreferrer"
+          target="_blank"
+        >
+          data router
+        </a>
+        . A route can be passed a 
+        <a
+          href="https://reactrouter.com/en/main/route/route#handle"
+          rel="noreferrer"
+          target="_blank"
+        >
+          handle
+        </a>
+        , which allows any arbitrary data to be passed to a route, retrieved in a
+         component using the 
+        <a
+          href="https://reactrouter.com/en/main/hooks/use-matches"
+          rel="noreferrer"
+          target="_blank"
+        >
+          useMatches
+        </a>
+         hook.
+      </p>
+      <p>
+        This boilerplate has a baseline implementation of this usage in place, passing a 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/types.ts"
+          rel="noreferrer"
+          target="_blank"
+        >
+          PageHandle
+        </a>
+         object. This is intended to pass route-specific or page-specific data to a page
+         component. A 
+        <span
+          className="highlight"
+        >
+          PageHandle
+        </span>
+         is currently defined as:
+      </p>
+      <div
+        className="codeBlock"
+      >
+        <div
+          className="copyContainer copyButton"
+        >
+          <div
+            className="copyWrapper lightMode"
+          >
+            <div
+              className="message"
+            >
+              <div
+                className="successMessage"
+              >
+                <span>
+                  Copied!
+                </span>
+              </div>
+              <div
+                className="errorMessage"
+              >
+                <span>
+                  Failed!
+                </span>
+              </div>
+            </div>
+            <button
+              aria-label="Copy text"
+              className="copyButton"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="copyIcon"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                >
+                  <path
+                    d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                  />
+                  <path
+                    d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p>
+          <span
+            className="red"
+          >
+            type
+          </span>
+           RouteHead 
+          <span
+            className="darkBlue"
+          >
+            =
+          </span>
+           {
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            title
+          </span>
+          ?: string;
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            tags
+          </span>
+          ?: React.ReactNode;
+          <br />
+          };
+          <br />
+          <br />
+          <span
+            className="red"
+          >
+            type
+          </span>
+           PageHandle 
+          <span
+            className="darkBlue"
+          >
+            =
+          </span>
+           {
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            head
+          </span>
+          ?: RouteHead;
+          <br />
+          };
+        </p>
+      </div>
+      <p>
+        A 
+        <span
+          className="highlight"
+        >
+          PageHandle
+        </span>
+         object can be passed into a given data route's 
+        <span
+          className="highlight"
+        >
+          handle
+        </span>
+         field. If this 
+        <span
+          className="highlight"
+        >
+          PageHandle
+        </span>
+         contains a 
+        <span
+          className="highlight"
+        >
+          head
+        </span>
+         property with 
+        <span
+          className="highlight"
+        >
+          title
+        </span>
+         or 
+        <span
+          className="highlight"
+        >
+          tags
+        </span>
+         then these values will be used by the 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/Head/index.tsx"
+          rel="noreferrer"
+          target="_blank"
+        >
+          app/Head
+        </a>
+         component to set the title and append route-specific head tags to a page.
+      </p>
+      <p>
+        <b>
+          NOTE
+        </b>
+        : 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/Head/index.tsx"
+          rel="noreferrer"
+          target="_blank"
+        >
+          app/Head
+        </a>
+         is rendered by 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/HTMLBody/index.tsx"
+          rel="noreferrer"
+          target="_blank"
+        >
+          app/HTMLBody
+        </a>
+        , which rendered by 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/Layout/index.tsx"
+          rel="noreferrer"
+          target="_blank"
+        >
+          app/Layout
+        </a>
+        . This makes 
+        <span
+          className="highlight"
+        >
+          app/Head
+        </span>
+         the ideal component to house site-wide 
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/API/Document/head"
+          rel="noreferrer"
+          target="_blank"
+        >
+          document head
+        </a>
+         tags. To leverage this in new layouts, follow the example set by 
+        <span
+          className="highlight"
+        >
+          app/Layout
+        </span>
+        : wrap the contents of the layout in 
+        <span
+          className="highlight"
+        >
+          app/HTMLBody
+        </span>
+         and invoke the hook 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/hooks/README.md#useresetscroll"
+          rel="noreferrer"
+          target="_blank"
+        >
+          useResetScroll
+        </a>
+         to ensure proper scroll behavior on route change.
+      </p>
+      <p>
+        A custom hook, 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/app/hooks/README.md#useroutehead"
+          rel="noreferrer"
+          target="_blank"
+        >
+          app/hooks/useRouteHead
+        </a>
+        , has been created for use in 
+        <span
+          className="highlight"
+        >
+          app/Head
+        </span>
+         to retrieve the contents of a route's PageHandle 
+        <span
+          className="highlight"
+        >
+          head
+        </span>
+         property if it exists.
+      </p>
+      <p>
+        To add a 
+        <span
+          className="highlight"
+        >
+          PageHandle
+        </span>
+         to a data route:
+      </p>
+      <div
+        className="codeBlock"
+      >
+        <div
+          className="copyContainer copyButton"
+        >
+          <div
+            className="copyWrapper lightMode"
+          >
+            <div
+              className="message"
+            >
+              <div
+                className="successMessage"
+              >
+                <span>
+                  Copied!
+                </span>
+              </div>
+              <div
+                className="errorMessage"
+              >
+                <span>
+                  Failed!
+                </span>
+              </div>
+            </div>
+            <button
+              aria-label="Copy text"
+              className="copyButton"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="copyIcon"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                >
+                  <path
+                    d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333z"
+                  />
+                  <path
+                    d="M4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p>
+          <span
+            className="grey"
+          >
+            // dataRoutes.js
+          </span>
+          <br />
+          <span
+            className="red"
+          >
+            import
+          </span>
+           
+          <span
+            className="orange"
+          >
+            Home
+          </span>
+           
+          <span
+            className="red"
+          >
+            from
+          </span>
+           
+          <span
+            className="blue"
+          >
+            'pages/Home'
+          </span>
+          ;
+          <br />
+          <span
+            className="red"
+          >
+            import
+          </span>
+           
+          <span
+            className="orange"
+          >
+            About
+          </span>
+           
+          <span
+            className="red"
+          >
+            from
+          </span>
+           
+          <span
+            className="blue"
+          >
+            'pages/About'
+          </span>
+          ;
+          <br />
+          <br />
+          <span
+            className="red"
+          >
+            const
+          </span>
+           dataRoutes 
+          <span
+            className="darkBlue"
+          >
+            =
+          </span>
+           [{
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            path
+          </span>
+          : 
+          <span
+            className="blue"
+          >
+            '/'
+          </span>
+          ,
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            Component
+          </span>
+          : 
+          <span
+            className="orange"
+          >
+            Home
+          </span>
+          ,
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            handle
+          </span>
+          : {
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            head
+          </span>
+          : {
+          <br />
+                
+          <span
+            className="darkBlue"
+          >
+            title
+          </span>
+          : 
+          <span
+            className="blue"
+          >
+            'Welcome to my homepage!'
+          </span>
+          ,
+          <br />
+                
+          <span
+            className="darkBlue"
+          >
+            tags
+          </span>
+          : (
+          <br />
+                  
+          <span
+            className="darkBlue"
+          >
+            &lt;&gt;
+          </span>
+          <br />
+                    
+          <span
+            className="darkBlue"
+          >
+            &lt;
+          </span>
+          <span
+            className="green"
+          >
+            meta
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            property =
+          </span>
+          <span
+            className="blue"
+          >
+            "og:title"
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            content =
+          </span>
+          <span
+            className="blue"
+          >
+            "Check out my website!"
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            /&gt;
+          </span>
+          <br />
+                    
+          <span
+            className="darkBlue"
+          >
+            &lt;
+          </span>
+          <span
+            className="green"
+          >
+            meta
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            property =
+          </span>
+          <span
+            className="blue"
+          >
+            "og:description"
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            content =
+          </span>
+          <span
+            className="blue"
+          >
+            "I think it might be the best website ever made."
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            /&gt;
+          </span>
+          <br />
+                  
+          <span
+            className="darkBlue"
+          >
+            &lt;/&gt;
+          </span>
+          <br />
+                ),
+          <br />
+              
+          },
+          <br />
+            
+          },
+          <br />
+          }, {
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            path
+          </span>
+          : 
+          <span
+            className="blue"
+          >
+            '/about'
+          </span>
+          ,
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            Component
+          </span>
+          : 
+          <span
+            className="orange"
+          >
+            About
+          </span>
+          ,
+          <br />
+            
+          <span
+            className="darkBlue"
+          >
+            handle
+          </span>
+          : {
+          <br />
+              
+          <span
+            className="darkBlue"
+          >
+            head
+          </span>
+          : {
+          <br />
+                
+          <span
+            className="darkBlue"
+          >
+            title
+          </span>
+          : 
+          <span
+            className="blue"
+          >
+            'Some things about my website'
+          </span>
+          ,
+          <br />
+                
+          <span
+            className="darkBlue"
+          >
+            tags
+          </span>
+          : (
+          <br />
+                  
+          <span
+            className="darkBlue"
+          >
+            &lt;&gt;
+          </span>
+          <br />
+                    
+          <span
+            className="darkBlue"
+          >
+            &lt;
+          </span>
+          <span
+            className="green"
+          >
+            meta
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            property =
+          </span>
+          <span
+            className="blue"
+          >
+            "og:title"
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            content =
+          </span>
+          <span
+            className="blue"
+          >
+            "Learn about the best website"
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            /&gt;
+          </span>
+          <br />
+                    
+          <span
+            className="darkBlue"
+          >
+            &lt;
+          </span>
+          <span
+            className="green"
+          >
+            meta
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            property =
+          </span>
+          <span
+            className="blue"
+          >
+            "og:description"
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            content =
+          </span>
+          <span
+            className="blue"
+          >
+            "10 reasons this site is best."
+          </span>
+           
+          <span
+            className="darkBlue"
+          >
+            /&gt;
+          </span>
+          <br />
+                  
+          <span
+            className="darkBlue"
+          >
+            &lt;/&gt;
+          </span>
+          <br />
+                ),
+          <br />
+              
+          },
+          <br />
+            
+          },
+          <br />
+          }];
+          <br />
+          <br />
+          <span
+            className="red"
+          >
+            export default
+          </span>
+           dataRoutes;
+        </p>
+      </div>
+      <p>
+        These 
+        <span
+          className="highlight"
+        >
+          title
+        </span>
+        s and 
+        <span
+          className="highlight"
+        >
+          tags
+        </span>
+         will be rendered into the document head only for their respective routes.
+      </p>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h3
+          className="tag"
+        >
+          Pull Request Template
+        </h3>
+        <a
+          aria-labelledby="Pull-Request-Template"
+          className="link"
+          href="#Pull-Request-Template"
+          id="Pull-Request-Template"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <p>
+        <b>
+          Tamsui
+        </b>
+         contains a 
+        <a
+          href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Github Pull Request template
+        </a>
+         that is intended to provide a scaffold for a thorough pull request. 
+        <a
+          href="https://github.com/chichiwang/tamsui/blob/main/.github/pull_request_template.md"
+          rel="noreferrer"
+          target="_blank"
+        >
+          This template
+        </a>
+         provides the following sections:
+      </p>
+      <ul
+        className="list"
+      >
+        <li>
+          <span
+            className="highlight"
+          >
+            Description
+          </span>
+          :
+          <ul
+            className="list"
+          >
+            <li>
+              Link to a related issue/story - important for documentation of
+               why this change is being made
+            </li>
+            <li>
+              A prompt to provide a description of the intent of the changes
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span
+            className="highlight"
+          >
+            Changes
+          </span>
+          : A prompt to list the code changes in the pull request
+        </li>
+        <li>
+          <span
+            className="highlight"
+          >
+            Steps to QA
+          </span>
+          : A prompt to provide steps for reviewers to verify the changes
+           achieve their intended result
+        </li>
+      </ul>
+      <p>
+        The reason for these sections is two-fold:
+      </p>
+      <ul
+        className="list numbered"
+      >
+        <li>
+          Make it easier for reviewers to review the code changes, with full context of the reasons
+           the changes are being made, in order that the team can produce the best results for the codebase.
+        </li>
+        <li>
+          Provide a history of documentation in the repository, so that every significant change is
+           documented and vetted. This can be useful in the future to trace changes and intent when debugging
+           or extending the codebase.
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h3
+          className="tag"
+        >
+          Github Workflow
+        </h3>
+        <a
+          aria-labelledby="Github-Workflow"
+          className="link"
+          href="#Github-Workflow"
+          id="Github-Workflow"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <b>
+        Tamsui
+      </b>
+       contains a 
+      <a
+        href="https://docs.github.com/en/actions/using-workflows/about-workflows"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Github workflow
+      </a>
+       configured to 
+      <a
+        href="https://github.com/chichiwang/tamsui/blob/main/.github/workflows/lint-test.yml"
+        rel="noreferrer"
+        target="_blank"
+      >
+        run the linter and test runner
+      </a>
+       on 
+      <a
+        href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#push"
+        rel="noreferrer"
+        target="_blank"
+      >
+        push events
+      </a>
+      . If this is not desired, 
+      <a
+        href="https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow#disabling-a-workflow"
+        rel="noreferrer"
+        target="_blank"
+      >
+        disable the workflow in Github
+      </a>
+      .
+    </article>
+  </section>
+  <section
+    className="headingBlock"
+  >
+    <div
+      className="container"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="wrapper"
+      >
+        <h2
+          className="tag"
+        >
+          Building for Production
+        </h2>
+        <a
+          aria-labelledby="Building-for-Production"
+          className="link"
+          href="#Building-for-Production"
+          id="Building-for-Production"
+        >
+          <svg
+            height="1.75rem"
+            viewBox="0 0 24 24"
+            width="1.75rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+            >
+              <path
+                d="M14 11.998C14 9.506 11.683 7 8.857 7H7.143C4.303 7 2 9.238 2 11.998c0 2.378 1.71 4.368 4 4.873a5.3 5.3 0 0 0 1.143.124"
+              />
+              <path
+                d="M10 11.998c0 2.491 2.317 4.997 5.143 4.997h1.714c2.84 0 5.143-2.237 5.143-4.997c0-2.379-1.71-4.37-4-4.874A5.3 5.3 0 0 0 16.857 7"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <article>
+      <p>
+        To build for production run 
+        <span
+          className="highlight"
+        >
+          npm build:prod
+        </span>
+        . The production assets to be deployed will be generated in the 
+        <span
+          className="highlight"
+        >
+          dist/
+        </span>
+         directory.
+      </p>
+      <p>
+        To build the production assets and run the Express server in a single
+           command, run 
+        <span
+          className="highlight"
+        >
+          npm start
+        </span>
+        .
+      </p>
+    </article>
+  </section>
+</div>
+`;

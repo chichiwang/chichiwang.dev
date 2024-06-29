@@ -1,0 +1,13 @@
+# Build
+dist/
+
+# Development Workflow Files
+__coverage__/
+stats.json
+
+# Dependencies
+node_modules/
+
+# System Files
+.DS_STORE
+*.swp

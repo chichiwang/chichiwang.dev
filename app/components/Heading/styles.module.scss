@@ -1,0 +1,50 @@
+@use "sass:map";
+@use "app/var.module";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  
+  .wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .tag {
+      display: inline-block;
+    }
+
+    .link {
+      position: absolute;
+      height: 1.75rem;
+      right: -2.5rem;
+      pointer-events: none;
+      opacity: 0;
+      transform: rotateY(-180deg);
+      transform-style: preserve-3d;
+      backface-visibility: hidden;
+      transition: opacity 1500ms ease-out, transform 850ms cubic-bezier(0.35, 1.64, 0.41, 0.8);
+
+      &:focus {
+        opacity: 1;
+        transform: rotateY(0deg);
+        pointer-events: auto;
+      }
+    }
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.hover {
+    .wrapper {
+      .link {
+        opacity: 1;
+        transform: rotateY(0deg);
+        pointer-events: auto;
+      }
+    }
+  }
+}

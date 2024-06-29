@@ -1,0 +1,47 @@
+@use "sass:map";
+@use "var.module";
+
+:global html {
+  box-sizing: border-box;
+}
+
+:global *,
+:global *:before,
+:global *:after {
+  box-sizing: inherit;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+:global body {
+  font-size: 16px;
+  font-family: system-ui, sans-serif;
+  margin: 0;
+}
+
+:global a,
+:global a:hover,
+:global a:focus,
+:global a:visited {
+  color: map.get(var.$colors, "blue");
+  text-decoration: none;
+  font-weight: bold;
+}
+
+:global h1 {
+  font-size: 2rem;
+}
+
+:global p {
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+@viewport {
+  width: device-width;
+}
+
+@-ms-viewport {
+  width: device-width;
+}

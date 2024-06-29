@@ -1,0 +1,155 @@
+@use 'sass:map';
+@use 'app/var.module';
+
+$indent-unit: map.get(var.$content, 'padding');
+
+.indent {
+  margin-left: calc($indent-unit * 1.5);
+}
+
+.highlight {
+  padding: calc(map.get(var.$content, 'padding') / 8) calc(map.get(var.$content, 'padding') / 4);
+  color: map.get(var.$colors, 'white');
+  border-radius: 0.25rem;
+  background-color: map.get(var.$colors, 'grey');
+}
+
+.list {
+  margin: 0;
+
+  &.content {
+    list-style: none;
+  }
+
+  &.numbered {
+    list-style-type: decimal;
+  }
+
+  & li {
+    margin: calc(map.get(var.$content, 'padding') * 0.75) 0;
+    line-height: 1.75rem;
+  }
+}
+
+.scriptsList {
+  border-collapse: collapse;
+
+  & td,
+  & th {
+    padding: calc(map.get(var.$content, 'padding') * 0.75) map.get(var.$content, 'padding');
+    vertical-align: middle;
+    border: 1px solid map.get(var.$colors, 'black');
+
+    & p {
+      margin: 0;
+      line-height: 1.65rem;
+    }
+
+    & .script {
+      position: relative;
+      display: flex;
+      align-items: middle;
+      padding-right: calc(map.get(var.$content, 'padding') * 6);
+
+      & .copyButton {
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0;
+
+        &:has(:focus-visible) {
+          opacity: 1;
+        }
+      }
+
+      @media print,
+      screen and (max-width: var.$breakpoint-small-max) {
+        padding-right: 0;
+      }
+    }
+
+    @media screen and (max-width: var.$breakpoint-small-max) {
+      p,
+      .script {
+        font-size: 1rem;
+        line-height: 1.35rem;
+      }
+    }
+  }
+
+  & tr:hover {
+    & td .script .copyButton {
+      opacity: 1;
+
+      @media print,
+      screen and (max-width: var.$breakpoint-small-max) {
+        display: none;
+      }
+    }
+  }
+}
+
+.codeBlock {
+  position: relative;
+  padding: map.get(var.$content, 'padding');
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  border-radius: 0.25rem;
+  background-color: map.get(var.$code-colors, 'background');
+
+  .copyButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+    @media print,
+    screen and (max-width: var.$breakpoint-small-max) {
+      display: none;
+    }
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: map.get(var.$colors, 'white');
+  }
+
+  .blue {
+    color: map.get(var.$code-colors, 'blue');
+  }
+
+  .darkBlue {
+    color: map.get(var.$code-colors, 'darkBlue');
+  }
+
+  .green {
+    color: map.get(var.$code-colors, 'green');
+  }
+
+  .grey {
+    color: map.get(var.$code-colors, 'grey');
+  }
+
+  .orange {
+    color: map.get(var.$code-colors, 'orange');
+  }
+
+  .purple {
+    color: map.get(var.$code-colors, 'purple');
+  }
+
+  .red {
+    color: map.get(var.$code-colors, 'red');
+  }
+
+  @media screen and (max-width: var.$breakpoint-small-max) {
+    p {
+      font-size: 0.75rem;
+    }
+  }
+}
+
+@media print {
+  .pageBreak {
+    margin-top: 8rem;
+  }
+}

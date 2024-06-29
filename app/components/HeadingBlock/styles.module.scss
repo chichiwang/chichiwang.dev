@@ -1,0 +1,10 @@
+@use "sass:map";
+@use "app/var.module";
+
+$padding-unit: map.get(var.$content, 'padding');
+
+.headingBlock {
+  margin: calc(2 * $padding-unit) 0;
+  padding: 0 $padding-unit;
+  width: 100%;
+}

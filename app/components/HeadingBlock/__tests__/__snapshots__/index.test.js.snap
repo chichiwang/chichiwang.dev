@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeadingBlock Component matches centered snapshot 1`] = `
+<section
+  className="headingBlock"
+>
+  <div
+    className="container center"
+  >
+    <div
+      className="wrapper"
+    >
+      <h1
+        className="tag"
+      >
+        Test Heading
+      </h1>
+    </div>
+  </div>
+  <article>
+    <p>
+      Block content
+    </p>
+  </article>
+</section>
+`;
+
+exports[`HeadingBlock Component matches className snapshot 1`] = `
+<section
+  className="margin-top-large headingBlock"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="wrapper"
+    >
+      <h3
+        className="tag"
+      >
+        Test Heading
+      </h3>
+    </div>
+  </div>
+  <article>
+    <p>
+      Block content
+    </p>
+  </article>
+</section>
+`;
+
+exports[`HeadingBlock Component matches uncentered snapshot 1`] = `
+<section
+  className="headingBlock"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="wrapper"
+    >
+      <h1
+        className="tag"
+      >
+        Test Heading
+      </h1>
+    </div>
+  </div>
+  <article>
+    <p>
+      Block content
+    </p>
+  </article>
+</section>
+`;
