@@ -118,6 +118,11 @@ describe('dataRoutes', () => {
       expect(resumeRoute).toEqual(expect.objectContaining({
         path,
         Component: Resume,
+        handle: expect.objectContaining({
+          head: expect.objectContaining({
+            tags: expect.any(Object),
+          }),
+        }),
       }));
     });
   });
