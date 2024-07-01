@@ -17,11 +17,7 @@ function Nav() {
             <span>Tamsui</span>
           </InternalLink>
         </div>
-        <div className={classNames(styles.segment, styles.pages)}>
-          <InternalLink className={styles.menuLink} to="/documentation">
-            Documentation
-          </InternalLink>
-        </div>
+        <div className={classNames(styles.segment, styles.pages)} />
         <div className={classNames(styles.segment, styles.social)}>
           <ExternalLink href="https://github.com/chichiwang/tamsui">
             <img alt="Github logo" className={styles.logo} src="/static/images/github-mark.svg" />
