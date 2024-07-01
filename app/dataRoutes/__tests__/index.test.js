@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from 'app/Layout';
 
 import Resume from 'pages/Resume';
-import Documentation from 'pages/Documentation';
 import ErrorPage from 'pages/ErrorPage';
 import NotFound from 'pages/NotFound';
 
@@ -18,12 +17,6 @@ function MockedLayout() {
 function MockedResume() {
   return (
     <h1>Resume Page</h1>
-  );
-}
-
-function MockedDocumentation() {
-  return (
-    <h1>Documentation Page</h1>
   );
 }
 
@@ -45,9 +38,6 @@ jest.mock('app/Layout', function MockLayout() {
 
 jest.mock('pages/Resume', function MockResume() {
   return MockedResume;
-});
-jest.mock('pages/Documentation', function MockDocumentation() {
-  return MockedDocumentation;
 });
 jest.mock('pages/ErrorPage', function MockErrorPage() {
   return MockedErrorPage;
@@ -73,7 +63,7 @@ describe('dataRoutes', () => {
   describe('root Layout route', () => {
     test('nests the other routes', () => {
       expect(layoutRoute.children).toEqual(expect.any(Array));
-      expect(layoutRoute.children.length).toBe(4);
+      expect(layoutRoute.children.length).toBe(3);
 
       for (const route of layoutRoute.children) {
         expect(route).toEqual(expect.objectContaining({
@@ -120,34 +110,6 @@ describe('dataRoutes', () => {
         Component: Resume,
         handle: expect.objectContaining({
           head: expect.objectContaining({
-            tags: expect.any(Object),
-          }),
-        }),
-      }));
-    });
-  });
-
-  describe('documentation route "/documentation"', () => {
-    const path = '/documentation';
-    const documentationRoute = findRouteByPath(layoutRoute.children, path);
-
-    test('is defined', () => {
-      expect(documentationRoute).not.toBe(undefined);
-    });
-
-    test('defines an error boundary', () => {
-      expect(documentationRoute).toEqual(expect.objectContaining({
-        errorElement: <MockedErrorPage />,
-      }));
-    });
-
-    test('assigns the Documentation component', () => {
-      expect(documentationRoute).toEqual(expect.objectContaining({
-        path,
-        Component: Documentation,
-        handle: expect.objectContaining({
-          head: expect.objectContaining({
-            title: expect.any(String),
             tags: expect.any(Object),
           }),
         }),

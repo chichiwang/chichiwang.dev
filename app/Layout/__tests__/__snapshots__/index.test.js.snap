@@ -48,15 +48,7 @@ exports[`Layout Component - default matches no-child snapshot 1`] = `
           </div>
           <div
             className="segment pages"
-          >
-            <a
-              className="menuLink"
-              href="/documentation"
-              onClick={[Function]}
-            >
-              Documentation
-            </a>
-          </div>
+          />
           <div
             className="segment social"
           >

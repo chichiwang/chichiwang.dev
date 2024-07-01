@@ -49,15 +49,6 @@ describe('Layout/Nav Component', () => {
     });
   });
 
-  describe('Page Links', () => {
-    test('contains a link to the Documentation page', () => {
-      render(<RouterWrappedNav />);
-
-      expect(screen.getByText('Documentation')).toBeInTheDocument();
-      expect(screen.getByRole('link', { name: 'Documentation' })).toHaveAttribute('href', '/documentation');
-    });
-  });
-
   describe('Social Links', () => {
     test('contains a Github logo', () => {
       render(<RouterWrappedNav />);
