@@ -2,8 +2,7 @@ import { RouteObject } from 'react-router-dom';
 
 import Layout from 'app/Layout';
 
-import Home from 'pages/Home';
-import HomeHandle from 'pages/Home/handle';
+import Resume from 'pages/Resume';
 
 import Documentation from 'pages/Documentation';
 import DocumentationHandle from 'pages/Documentation/handle';
@@ -22,8 +21,7 @@ const dataRoutes: RouteObject[] = [
     children: [
       withErrorBoundary({
         path: '/',
-        Component: Home,
-        handle: HomeHandle,
+        Component: Resume,
       }),
       withErrorBoundary({
         path: '/documentation',
