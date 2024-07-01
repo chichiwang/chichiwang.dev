@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import ContentBlock from 'app/components/ContentBlock';
-import AnimatedLogo from 'app/components/Logo/AnimatedLogo';
+import Logo from 'app/components/Logo';
 
 import styles from './styles.module.scss';
 
@@ -10,7 +10,7 @@ export default function NotFound(): React.ReactElement {
   return (
     <ContentBlock>
       <div className={styles.logoBlock}>
-        <AnimatedLogo height="250px" />
+        <Logo height="250px" />
       </div>
       <h1 className={styles.notFoundHeading}>Page Not Found!</h1>
       <p className={styles.notFoundMessage}>

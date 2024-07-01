@@ -1,6 +1,7 @@
 import React from 'react';
 
-import HeroBanner from 'app/components/HeroBanner';
+import Logo from 'app/components/Logo';
+
 import ContentBlock from 'app/components/ContentBlock';
 import HeadingBlock from 'app/components/HeadingBlock';
 import ExternalLink from 'app/components/ExternalLink';
@@ -11,7 +12,7 @@ import styles from './styles.module.scss';
 function Home(): React.ReactElement {
   return (
     <>
-      <HeroBanner />
+      <Logo className={styles.logo} />
 
       <ContentBlock>
         <HeadingBlock level="1" heading="Tamsui" center>
