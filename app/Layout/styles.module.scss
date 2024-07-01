@@ -49,6 +49,10 @@ $accent-background-gradient: linear-gradient(
     flex-grow: 1;
     justify-content: flex-start;
 
+    & .logo {
+      height: 30px;
+    }
+
     & span {
       margin: 0 calc(var.$spacing-unit / 2);
       vertical-align: middle;

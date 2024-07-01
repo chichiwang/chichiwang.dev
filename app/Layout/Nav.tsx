@@ -13,7 +13,7 @@ function Nav() {
       <div className={styles.contents}>
         <div className={classNames(styles.segment, styles.home)}>
           <InternalLink className={styles.menuLink} to="/">
-            <Logo className={styles.logo} height="30px" />
+            <Logo className={styles.logo} />
             <span>Tamsui</span>
           </InternalLink>
         </div>
