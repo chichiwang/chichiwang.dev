@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume/Head component matches the snapshot 1`] = `
+[
+  <meta
+    content="website"
+    property="og:type"
+  />,
+  <meta
+    content="Resume of Chi-chi Wang"
+    property="og:title"
+  />,
+  <meta
+    content="Software engineer, UI specialist, JavaScript expert, team leader, mentor."
+    property="og:description"
+  />,
+  <meta
+    content="https://resume.head.test"
+    property="og:url"
+  />,
+  <link
+    href="https://resume.head.test"
+    rel="canonical"
+  />,
+]
+`;
