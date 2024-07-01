@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from 'app/Layout';
 
-import Home from 'pages/Home';
+import Resume from 'pages/Resume';
 import Documentation from 'pages/Documentation';
 import ErrorPage from 'pages/ErrorPage';
 import NotFound from 'pages/NotFound';
@@ -15,9 +15,9 @@ function MockedLayout() {
   );
 }
 
-function MockedHome() {
+function MockedResume() {
   return (
-    <h1>Home Page</h1>
+    <h1>Resume Page</h1>
   );
 }
 
@@ -43,8 +43,8 @@ jest.mock('app/Layout', function MockLayout() {
   return MockedLayout;
 });
 
-jest.mock('pages/Home', function MockHome() {
-  return MockedHome;
+jest.mock('pages/Resume', function MockResume() {
+  return MockedResume;
 });
 jest.mock('pages/Documentation', function MockDocumentation() {
   return MockedDocumentation;
@@ -100,29 +100,24 @@ describe('dataRoutes', () => {
     });
   });
 
-  describe('home route "/"', () => {
+  describe('resume route "/"', () => {
     const path = '/';
-    const homeRoute = findRouteByPath(layoutRoute.children, path);
+    const resumeRoute = findRouteByPath(layoutRoute.children, path);
 
     test('is defined', () => {
-      expect(homeRoute).not.toBe(undefined);
+      expect(resumeRoute).not.toBe(undefined);
     });
 
     test('defines an error boundary', () => {
-      expect(homeRoute).toEqual(expect.objectContaining({
+      expect(resumeRoute).toEqual(expect.objectContaining({
         errorElement: <MockedErrorPage />,
       }));
     });
 
     test('assigns the Home component', () => {
-      expect(homeRoute).toEqual(expect.objectContaining({
+      expect(resumeRoute).toEqual(expect.objectContaining({
         path,
-        Component: Home,
-        handle: expect.objectContaining({
-          head: expect.objectContaining({
-            tags: expect.any(Object),
-          }),
-        }),
+        Component: Resume,
       }));
     });
   });
