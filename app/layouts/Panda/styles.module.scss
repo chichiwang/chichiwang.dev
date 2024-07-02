@@ -1,0 +1,14 @@
+@use 'sass:map';
+@use 'app/var.module';
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.content {
+  position: relative;
+  max-width: map.get(var.$content, 'max-width');
+  margin: 0 auto;
+  font-size: map.get(var.$content, 'font-size');
+}

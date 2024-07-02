@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panda layout matches no-child snapshot 1`] = `
+<html
+  lang="en"
+>
+  <head>
+    <title>
+      Layout Test
+    </title>
+  </head>
+  <body>
+    <section
+      className="page"
+    >
+      <main
+        className="content"
+      />
+    </section>
+  </body>
+</html>
+`;
