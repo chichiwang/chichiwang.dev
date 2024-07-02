@@ -1,6 +1,6 @@
 import { RouteObject } from 'react-router-dom';
 
-import Layout from 'app/Layout';
+import Layout from 'app/layouts/Panda';
 
 import Resume from 'pages/Resume';
 import ResumeHandle from 'pages/Resume/handle';
