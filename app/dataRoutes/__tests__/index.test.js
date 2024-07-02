@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Layout from 'app/Layout';
+import Layout from 'app/layouts/Panda';
 
 import Resume from 'pages/Resume';
 import ErrorPage from 'pages/ErrorPage';
@@ -32,7 +32,7 @@ function MockedErrorPage() {
   );
 }
 
-jest.mock('app/Layout', function MockLayout() {
+jest.mock('app/layouts/Panda', function MockLayout() {
   return MockedLayout;
 });
 
