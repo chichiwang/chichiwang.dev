@@ -7,6 +7,6 @@ module.exports = {
   production: {
     PORT: 3000,
     SERVE_STATIC: false,
-    PROJECT_URL: JSON.stringify('https://tamsui.dev'),
+    PROJECT_URL: JSON.stringify('https://chichiwang.dev'),
   },
 };
