@@ -10,7 +10,7 @@ export default function NotFound(): React.ReactElement {
   return (
     <ContentBlock>
       <div className={styles.logoBlock}>
-        <Logo height="250px" />
+        <Logo className={styles.logo} height="250px" />
       </div>
       <h1 className={styles.notFoundHeading}>Page Not Found!</h1>
       <p className={styles.notFoundMessage}>
