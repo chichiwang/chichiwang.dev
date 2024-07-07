@@ -9,7 +9,7 @@ export default function ErrorPage() {
   return (
     <ContentBlock>
       <div className={styles.logoBlock}>
-        <Logo height="250px" />
+        <Logo className={styles.logo} height="250px" />
       </div>
       <h1 className={styles.errorHeading}>An Error Occurred!</h1>
       <p className={styles.errorMessage}>

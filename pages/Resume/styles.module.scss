@@ -1,4 +1,7 @@
+@use "sass:map";
+@use "app/var.module";
+
 .logo {
   margin: 2rem 0;
-  color: #212121;
+  color: map.get(var.$colors, "panda", "black");
 }
