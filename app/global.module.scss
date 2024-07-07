@@ -31,6 +31,16 @@
   font-weight: bold;
 }
 
+:global h1,
+:global h2,
+:global h3,
+:global h4,
+:global h5,
+:global h6 {
+  color: map.get(var.$colors, "panda", "black");
+}
+
+
 :global h1 {
   font-size: 2rem;
 }
