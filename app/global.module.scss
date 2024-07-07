@@ -18,13 +18,15 @@
   font-size: 16px;
   font-family: system-ui, sans-serif;
   margin: 0;
+  background-color: map.get(var.$colors, "panda", "white");
+  color: map.get(var.$colors, "panda", "grey");
 }
 
 :global a,
 :global a:hover,
 :global a:focus,
 :global a:visited {
-  color: map.get(var.$colors, "blue");
+  color: map.get(var.$colors, "panda", "black");
   text-decoration: none;
   font-weight: bold;
 }
