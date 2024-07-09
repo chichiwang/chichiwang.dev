@@ -1,14 +1,12 @@
 import React from 'react';
 
 import ContentBlock from 'app/components/ContentBlock';
-import Logo from 'app/components/Logo';
-
-import styles from './styles.module.scss';
+import LogoBlock from 'app/components/Logo/LogoBlock';
 
 function Resume() {
   return (
     <ContentBlock>
-      <Logo className={styles.logo} />
+      <LogoBlock />
       <h1>Chi-chi Wang</h1>
       <p>Build resume page here</p>
     </ContentBlock>

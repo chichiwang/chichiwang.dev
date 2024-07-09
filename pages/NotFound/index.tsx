@@ -2,16 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import ContentBlock from 'app/components/ContentBlock';
-import Logo from 'app/components/Logo';
+import LogoBlock from 'app/components/Logo/LogoBlock';
 
 import styles from './styles.module.scss';
 
 export default function NotFound(): React.ReactElement {
   return (
     <ContentBlock>
-      <div className={styles.logoBlock}>
-        <Logo className={styles.logo} height="250px" />
-      </div>
+      <LogoBlock />
       <h1 className={styles.notFoundHeading}>Page Not Found!</h1>
       <p className={styles.notFoundMessage}>
         This page does not exit!
