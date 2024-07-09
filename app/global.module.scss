@@ -19,7 +19,7 @@
   font-family: system-ui, sans-serif;
   margin: 0;
   background-color: map.get(var.$colors, "panda", "white");
-  color: map.get(var.$colors, "panda", "grey");
+  color: map.get(var.$colors, "panda", "black");
 }
 
 :global a,
