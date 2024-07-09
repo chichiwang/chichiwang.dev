@@ -1,0 +1,9 @@
+@use 'sass:map';
+@use 'app/var.module';
+
+.logoBlock {
+  display: flex;
+  justify-content: center;
+  color: map.get(var.$colors, "panda", "black");
+  margin: calc(map.get(var.$content, 'padding') * 4) auto;
+}

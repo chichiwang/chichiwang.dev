@@ -8,7 +8,6 @@ exports[`ErrorPage Component matches snapshot 1`] = `
     className="logoBlock"
   >
     <svg
-      className="logo"
       height="250px"
       version="1.1"
       viewBox="0 0 391 452"
