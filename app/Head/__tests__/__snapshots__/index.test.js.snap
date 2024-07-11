@@ -6,18 +6,18 @@ exports[`Head component matches the no route head snapshot 1`] = `
     charSet="utf-8"
   />
   <title>
-    Tamsui: A Universal JavaScript Application Boilerplate
+    Chi-chi Wang: Software Engineer
   </title>
   <meta
     content="Chi-chi Wang"
     name="author"
   />
   <meta
-    content="Tamsui, js, JavaScript, isomorphic, Node.js, React, TypeScript, Express, React-Router, Boilerplate"
+    content="Chi-chi Wang, Software Engineer, UI, JavaScript, Node.js, React"
     name="keywords"
   />
   <meta
-    content="An Express/React universal application boilerplate"
+    content="Chichi Wang: Software Engineer, JavaScript specialist"
     name="description"
   />
   <meta
@@ -83,18 +83,18 @@ exports[`Head component matches the route tags snapshot 1`] = `
     charSet="utf-8"
   />
   <title>
-    Tamsui: A Universal JavaScript Application Boilerplate
+    Chi-chi Wang: Software Engineer
   </title>
   <meta
     content="Chi-chi Wang"
     name="author"
   />
   <meta
-    content="Tamsui, js, JavaScript, isomorphic, Node.js, React, TypeScript, Express, React-Router, Boilerplate"
+    content="Chi-chi Wang, Software Engineer, UI, JavaScript, Node.js, React"
     name="keywords"
   />
   <meta
-    content="An Express/React universal application boilerplate"
+    content="Chichi Wang: Software Engineer, JavaScript specialist"
     name="description"
   />
   <meta
@@ -168,18 +168,18 @@ exports[`Head component matches the route title snapshot 1`] = `
     charSet="utf-8"
   />
   <title>
-    route has PageHandle with title | Tamsui
+    route has PageHandle with title | Chi-chi Wang
   </title>
   <meta
     content="Chi-chi Wang"
     name="author"
   />
   <meta
-    content="Tamsui, js, JavaScript, isomorphic, Node.js, React, TypeScript, Express, React-Router, Boilerplate"
+    content="Chi-chi Wang, Software Engineer, UI, JavaScript, Node.js, React"
     name="keywords"
   />
   <meta
-    content="An Express/React universal application boilerplate"
+    content="Chichi Wang: Software Engineer, JavaScript specialist"
     name="description"
   />
   <meta
