@@ -1,5 +1,6 @@
 @use "sass:map";
 @use "var.module";
+@use "mixins.module";
 
 :global html {
   box-sizing: border-box;
@@ -15,8 +16,8 @@
 }
 
 :global body {
+  @include mixins.font-slab-serif;
   font-size: 16px;
-  font-family: system-ui, sans-serif;
   margin: 0;
   background-color: map.get(var.$colors, "panda", "white");
   color: map.get(var.$colors, "panda", "black");
@@ -29,6 +30,15 @@
   color: map.get(var.$colors, "accent", "blue");
   text-decoration: none;
   font-weight: bold;
+}
+
+:global h1,
+:global h2,
+:global h3,
+:global h4,
+:global h5,
+:global h6 {
+  @include mixins.font-geometric-humanist;
 }
 
 :global h1 {
