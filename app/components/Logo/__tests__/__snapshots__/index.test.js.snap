@@ -2,10 +2,8 @@
 
 exports[`Logo component matches the snapshot 1`] = `
 <svg
-  height="1.5067in"
   version="1.1"
   viewBox="0 0 391 452"
-  width="1.3033in"
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
