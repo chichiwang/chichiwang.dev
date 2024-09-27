@@ -1,11 +1,13 @@
 /* eslint global-require: 0, camelcase: 0 */
 import express from 'express';
+import serveStatic from 'serve-static';
 
 import logger from '../logger';
 import httpLogger from '../httpLogger';
 import appHandler from '../appHandler';
 
 jest.mock('express');
+jest.mock('serve-static', () => jest.fn((p) => p));
 
 jest.mock('../logger');
 jest.mock('../httpLogger');
@@ -95,7 +97,7 @@ describe('server', () => {
 
   describe('SERVE_STATIC config set to true', () => {
     test('has the expected number of middleware and static asset routes', () => {
-      expect(mockAppUse).toHaveBeenCalledTimes(4);
+      expect(mockAppUse).toHaveBeenCalledTimes(5);
     });
 
     test('serves the correct number of static routes', () => {
@@ -121,9 +123,9 @@ describe('server', () => {
     test('/static directory is served statically', () => {
       expect(express.static).toHaveBeenCalledWith(expect.stringMatching(/static/));
 
-      const stylesPath = express.static.mock.calls[2][0];
+      const staticPath = express.static.mock.calls[2][0];
 
-      expect(mockAppUse).toHaveBeenCalledWith('/static', mockExpressStatic(stylesPath));
+      expect(mockAppUse).toHaveBeenCalledWith('/static', mockExpressStatic(staticPath));
     });
   });
 
@@ -139,11 +141,19 @@ describe('server', () => {
     });
 
     test('has the expected number of middleware and static asset routes', () => {
-      expect(mockAppUse).toHaveBeenCalledTimes(1);
+      expect(mockAppUse).toHaveBeenCalledTimes(2);
     });
 
-    test('does not set up any static routes', () => {
+    test('does not register any static route', () => {
       expect(express.static).not.toHaveBeenCalled();
+    });
+
+    test('/static directory is served statically', () => {
+      expect(serveStatic).toHaveBeenCalledWith(expect.stringMatching(/static/));
+
+      const staticPath = serveStatic.mock.calls[0][0];
+
+      expect(mockAppUse).toHaveBeenCalledWith(staticPath);
     });
   });
 
